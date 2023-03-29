@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipes Page</title>
+    <link rel="stylesheet" href="demo2.css">
+    <style>
+      /* Font styling */
+      body {
+        font-family: Arial, sans-serif;
+      }
+      
+      h1, h2, h3 {
+        font-weight: bold;
+        color: #333;
+      }
+      
+      nav a {
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+      }
+      
+      /* Interface styling */
+      #recipe-interface {
+        background-color: #eee;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+      }
+      
+      #recipe-interface h2 {
+        margin-top: 0;
+      }
+      
+      #recipe-interface label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+      
+      #recipe-interface input[type="text"],
+      #recipe-interface select {
+        padding: 5px;
+        margin-bottom: 10px;
+        font-size: 1em;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      }
+      
+      #recipe-interface button[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1em;
+        cursor: pointer;
+      }
+      
+      #recipe-interface button[type="submit"]:hover {
+        background-color: #555;
+      }
+      
+      /* Recipe list styling */
+      #recipe-list {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Food Recipe Website</h1>
+      <nav>
+        <ul>
+          <li><a href="demo.html">Home</a></li>
+          <li><a href="page2.html">Recipes</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="recipe-interface">
+        <h2>Search Recipes</h2>
+        <form>
+          <label for="search">Search:</label>
+          <input type="text" id="search" name="search" placeholder="Enter a keyword">
+          <button type="submit">Search</button>
+        </form>
+
+        <h2>Filter Recipes</h2>
+        <form>
+          <label for="category">Category:</label>
+          <select id="category" name="category">
+            <option value="">All</option>
+            <option value="pasta">Pasta</option>
+            <option value="dessert">Dessert</option>
+            <option value="appetizer">Appetizer</option>
+          </select>
+
+          <label for="difficulty">Difficulty:</label>
+          <select id="difficulty" name="difficulty">
+            <option value="">All</option>
+            <option value="easy">Easy</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="difficult">Diff
+              
